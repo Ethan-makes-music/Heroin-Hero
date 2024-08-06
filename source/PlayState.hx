@@ -66,6 +66,12 @@ class PlayState extends FlxState
 	{
 		super.update(elapsed);
 
+		if (FlxG.keys.justPressed.P)
+		{
+			openSubState(new PauseSubState());
+			FlxG.sound.music.stop();
+		}
+
 		if (FlxG.keys.pressed.SPACE)
 		{
 			player.animation.play("shootingUp");

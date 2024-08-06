@@ -27,7 +27,7 @@ class PauseSubState extends FlxSubState
 		pauseText.setFormat(AssetPaths.Nightmare_Hero_Normal__ttf, 64, FlxColor.WHITE, FlxTextAlign.CENTER);
 		backText.setFormat(AssetPaths.Nightmare_Hero_Normal__ttf, 32, FlxColor.WHITE, FlxTextAlign.CENTER);
 		exitText.setFormat(AssetPaths.Nightmare_Hero_Normal__ttf, 32, FlxColor.WHITE, FlxTextAlign.CENTER);
-        add(bg);
+        	add(bg);
 		add(pauseText);
 		add(backText);
 		add(exitText);
